@@ -5,4 +5,4 @@ with new inputs.
 This project is going to be a single webpage which will have all the basic to intermediate knowledge about git and github. You will also come across some basic 
 html css skills of mine along with framework like bootstrap(using all at its latest version).
 
-Adding some extra text.
+Adding some extra text to the README file.

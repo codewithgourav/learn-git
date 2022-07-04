@@ -1,6 +1,362 @@
-<h1>Hello</h1>
-<<<<<<< HEAD
-<p>World</p>
-=======
-<p>There</p>
->>>>>>> main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitnGithub</title>
+
+    <!--start CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!--end CSS-->
+
+    <!--start custom-menu CSS-->
+    <link rel="stylesheet" type="text/css" href="css/custom-menu.css">
+    <!--end custom-menu CSS-->
+</head>
+<body>
+    
+    <section class="full-width home_bnr">
+        <div class="bnr_img">
+            <img src="images/gitngithubbanner.png" alt="">
+        </div>
+    </section>
+
+    <section class="intro_git">
+        <div class="container">
+            <h1>Git and Github</h1>
+            <p>Git and GitHub are two technologies that every developer should learn, irrespective of their field. </p>
+            <h2>What is Git</h2>
+            <p>Git is a version control system which lets you track changes you make to your files over time.
+            With Git, you can revert to various states of your files (like a time traveling machine).
+            You can also make a copy of your file, make changes to that copy, and then merge these changes to the 
+            original copy.</p>
+            <h2>What is Version Control</h2>
+            <p>The management of changes to documents,computer programs, large websites, and other collections of
+            informations.</p>
+            <h2>What is Github</h2>
+            <p>GitHub is an online hosting service for Git repositories. </p>
+        </div>
+    </section>
+
+    <section class="terms">
+        <div class="container">
+            <h2>Prerequisites/Terms</h2>
+            <ul>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i>A command line interface.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i>Directory (Folder).</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i>cd <i class="fa fa-long-arrow-right"></i> Change 
+                    Directory</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i>A text editor of your choice (I will be using VS 
+                    Code).</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i>A GitHub account.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i>Repository <i class="fa fa-long-arrow-right"></i> 
+                Project, or the folder/place where your projects are kept.</li>
+            </ul>
+            <h2>Git Commands</h2>
+            <ul>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i>clone <i class="fa fa-long-arrow-right"></i> 
+                    Bring a repo that is hosted somewhere like GitHub into a folder on your local machine.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> add <i class="fa fa-long-arrow-right"></i> Track your 
+                    files and changes in Git.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> commit <i class="fa fa-long-arrow-right"></i> 
+                    Save your files in Git.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> push <i class="fa fa-long-arrow-right"></i> Upload Git commits to a remote repo, like GitHub.</li>            
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> pull <i class="fa fa-long-arrow-right"></i>
+                    Download changes from remote repo to your local machine, the opposite of push.</li>    
+            </ul>
+        </div>
+    </section>
+
+    <section class="git_login">
+        <div class="container">
+            <h2>Follow the steps given in image to create your account and then create a new Repository</h2>
+            <div class="git_login_div">
+                <div class="git_login_subdi">
+                    <img src="images/githublogin.png" alt="">
+                </div>
+                <div class="git_login_subdi">
+                    <p>The first thing that we need to do is create a GitHub account. This is pretty straightforward,
+                        once we enter the required details and then sign up for an account, we will get an email that 
+                        will ask us to verify and the we will be able to login into our account. 
+                    </p>
+                </div>
+            </div>
+            <div class="git_login_div">
+                <div class="git_login_subdi">
+                    <img src="images/githubhome.png" alt="">
+                </div>
+                <div class="git_login_subdi">
+                    <p>This is how your profile home page would look like after you successfully login. This is the 
+                        profile page that we can access from the drop down menu on the extreme top right corner beside
+                        the profile picture. 
+                    </p>
+                </div>
+            </div>
+            <div class="git_login_div">
+                <div class="git_login_subdi">
+                    <img src="images/newrepo.png" alt="">
+                </div>
+                <div class="git_login_subdi">
+                    <p>Our next step is to create a new repository (project, or the folder/place where your projects are kept.)
+                       To create one we need to click on the <span>+</span> sign where upon clicking we get the dropdown menu, and 
+                       from the dropdown menu we select <span>New repository</span>. 
+                    </p>
+                    <p>Once clicked on <span>New repository</span>, our page will look like the image on the left side.</p>
+                    <p>Under <span>Repository name *</span> provide repository name of your choice and scroll 
+                    down to click on <span>Create repository</span></p>
+                </div>
+
+            </div>
+            <div class="git_login_div">
+                <div class="git_login_subdi">
+                    <img src="images/newfilerepo.png" alt="">
+                </div>
+                <div class="git_login_subdi">
+                    <p>Once you hit <span>Create repository</span> you will be directed to the page 1 marked 
+                    in red in the image. Click on the creating a new file marked in red box in the image, once you click 
+                    you will be taken to page 2 written in red where you can create a README.md file.</p>
+                </div>  
+            </div>
+            <div class="git_login_div">
+                <div class="git_login_subdi">
+                    <img src="images/commitnewfile.png" alt="">
+                </div>
+                <div class="git_login_subdi">
+                    <p>Once you fill in with the file name (here README.md), add some description under 
+                        <span>Edit new file</span> the scroll down click on <span>Commit new file</span> button
+                    </p>
+                    <p>After clicking on <span>Commit new file</span>, you will be taken to page 2 written in red 
+                        on the image.</p>
+                </div>  
+            </div>
+            <div class="git_login_div">
+                <div class="git_login_subdi">
+                    <img src="images/updatereadme.png" alt="">
+                </div>
+                <div class="git_login_subdi">
+                    <p>You can update the README.md file by clicking on the <i class="fa fa-pencil" aria-hidden="true"></i>.
+                       After you make the desired changes , scroll down to click on the <span>Commit new file</span> button. 
+                    </p>
+                    <p>Once you click on the <span>Commit new file</span> button, the file will get updatesd. You can click on
+                    <span>commits</span> tabs to see the number of commits made. (shown in window marked as 2 in red)</p>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section class="git_local">
+        <div class="container">
+            <h2>To clone the entire repository that we have created in our GitHub account into our local System</h2>
+            <ul>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> Step 1 <i class="fa fa-long-arrow-right"></i> Create am empty folder with any name of your 
+                    choice</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> Step 2 <i class="fa fa-long-arrow-right"></i> Open the folder from Visual Studio Code editor.
+                 and then open a new terminal from Visual Studio Code.</li> 
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> Step 3 <i class="fa fa-long-arrow-right"></i> In the CLI write 
+                    <span>git clone https://github.com/codewithgourav/learn-git.git</span>
+                    You will get the link by click on the <span>Code</span> button and then copying the link under HTTPS.
+                </li> 
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> Step 4 <i class="fa fa-long-arrow-right"></i> Edit the README.md file from the editor and 
+                    then perform the following steps in the CLI.
+                    <ul>
+                        <li><i class="fa fa-asterisk" aria-hidden="true"></i> cd learn-git</li>
+                        <li><i class="fa fa-asterisk" aria-hidden="true"></i> git status</li>
+                        <li><i class="fa fa-asterisk" aria-hidden="true"></i> git add .</li>
+                        <li><i class="fa fa-asterisk" aria-hidden="true"></i> git commit -m "README.md file updated from VSC"</li>
+                    </ul>
+                </li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> Step 5 <i class="fa fa-long-arrow-right"></i> create an index.html inside learn-git folder and 
+                 edit the file with some HTML tags. And then perform the following steps in the CLI.
+                  <ul>
+                    <li><i class="fa fa-asterisk" aria-hidden="true"></i> git status</li>
+                    <li><i class="fa fa-asterisk" aria-hidden="true"></i> git add .</li>
+                    <li><i class="fa fa-asterisk" aria-hidden="true"></i> git commit -m "index.html file added"</li>
+                  </ul>
+                </li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> Step 6 <i class="fa fa-long-arrow-right"></i> To push all these changes to the remote repository,
+                    you need to type <span>git push origin main</span>  in the CLI. Once you hit enter, you will be 
+                    required to provide you github credentials in the pop up window. After that when you reload the 
+                    github page having your repository, you will be able to see your newly added index.html file.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="workflow">
+        <h2>Workflow</h2>
+        <div class="container">
+            <img src="images/workflow.png" alt="">
+        </div>
+    </section>
+
+    <section class="git_branch">
+        <h2>Git Branching</h2>
+        <div class="container">
+            <div class="git_branch">
+                <img src="images/gitbranching.png" alt="">
+            </div>
+            <p>You have already seen by now that previously we did <span>git push origin main</span>. What is main?
+                Main/Master is a naming convention for the main or default branch is a repository. So if you are working 
+                on a particular branch your code will remain there. So all the code  all the commits will be confined 
+                within that particular branch.</p> 
+            <p>This is called branching, because it starts to look like a tree when we start creating seperate banches 
+                out of the main branch. So you can make other branches like feature branch. When you create feature branch 
+                the code remains exactly the same as in the master/main branch. But as you make updates to feature branch,
+                those changes are only seen in the feature branch. So if you make changes in the feature branch, you make
+                a commit to save those changes on to that branch. And then you switch back to master branch, you won't be 
+                able to see any of those changes that you made on that feature branch. Each individual branch has no way of 
+                knowing what commits or what changes are made to any other branch. Each branch is only keeping track of what 
+                changes are made on its own branch.</p>
+            <p>Why is this useful? It's extremely useful because you will be building out new features to applications
+                that may break your code and you don't want to save them to the main/master branch. So you want to add those 
+                new code seperately and not add/merge it to the main/master branch unless it's correct. And this is really 
+                helpful when we have multiple developers working on the same repository.
+            </p>        
+        </div>
+    </section>
+
+    <section class="gitbranchingsteps">
+        <h2>Use CLI to create a GIT branch</h2>
+        <div class="container">
+            <div class="gitbranchingsteps_img">
+                <img src="images/gitbranchingsteps.png" alt="">
+            </div>
+            <ul>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> The first line shows that in our local 
+                    repository, you have only one main/master branch. *main represents you have only one branch and we 
+                    are in the main branch.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> The second line shows that you are creating a new 
+                    branch with the name feature.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> In third line you again did git branch, where now
+                    it shows that you have two branches, feature and main and you are at the feature branch currently.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> In fourth line you can switch to main branch, using 
+                    the command git checkout main.</li>                 
+            </ul>
+        </div>
+    </section>
+
+    <section class="gitbranchingsteps">
+        <h2>Use CLI to create a GIT branch</h2>
+        <div class="container">
+            <div class="gitbranchingsteps_img">
+                <img src="images/feature.png" alt="">
+            </div>
+            <ul>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> You switch to feature branch and edit the 
+                README.md file (marked in selection).</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> In CLI, you perform all those sets of commands
+                git status,git add ., git commit -m "README file updated".</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> Now you switch to main branch by giving the 
+                    command <span>git checkout main</span>. Surprisingly you won't be able to see those changes in the main branch.</li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> If you wish to see the difference between the 
+                    main and feature branch you can do <span>git diff feature</span>.</li>    
+            </ul>
+        </div>
+    </section>
+
+    <section class="pushfeature">
+        <h2>Push Feature Branch To Remote Repository</h2>
+        <div class="container">
+            <div class="gitbranchingsteps_img">
+                <img src="images/pushfeature.png" alt="">
+            </div>
+            <ul>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> The first line you switched to feature branch
+                </li>
+                <li><i class="fa fa-asterisk" aria-hidden="true"></i> The second line shows you that you pushed the
+                    feature branch to the remote repository</li>
+            </ul>
+            <div class="gitbranchingsteps_img">
+                <img src="images/remotefeature.png" alt="">
+            </div>
+            <p>You will be able to find the above dialog box in your GitHub repository. Click on 
+                <span>Compare & pull request</span> button.</p>
+            <div class="gitbranchingsteps_img">
+                <img src="images/pullrequest.png" alt="">
+            </div> 
+            <p>After you click on <span>Compare & pull request</span> button, on this page you will be able to see that
+            the pull request is made by the feature branch to the main branch pointed out with left arrow. You can 
+            ofcourse add a comment to you pull request and then click on <span>Create pull request</span> button.</p> 
+            <div class="gitbranchingsteps_img">
+                <img src="images/mergerequest.png" alt="">
+            </div>
+            <p>After you click on <span>Create pull request</span> button. You will see the above page, where you 
+                can see the comment that you have added and then you need to click on the <span>Merge pull reqquest</span>
+                button.</p>
+            <div class="gitbranchingsteps_img">
+                <img src="images/successmerge.png" alt="">
+            </div>  
+            <p>In the above image you can see the changes have been pulled by the main branch, marked under selection. </p>  
+        </div>
+    </section>
+
+    <Section class="pullmain">
+        <h2>Pull Remote Main Branch to local</h2>
+        <div class="container">
+            <p>Now that you dont have the updated main branch in your local main branch, you need to pull the
+                main branch to your local. For that switch to main branch using <span>git checkout main</span>
+                and then write <span>git pull origin main</span>.
+            </p>
+            <p>Remember when you are done with you feature branch, you can go to your CLI and use the command
+                <span>git branch -d feature</span> to delete the feature branch.
+            </p>
+        </div>
+    </Section>
+
+    <section class="mergeconflict">
+        <h2>Merge Conflict</h2>
+        <div class="container"> 
+            <p>In real life you are not always going to have such an easy time merging. There is something called merge
+            conflicts in git, where basically you're are writing your own code on your own branch. Maybe other people 
+            writing their code on their branches. And main branch is getting updated from time to time. So it's possible
+            for multiple people to change the same files.So Git doesn't know which code you want to keep, or which code 
+            is redundant, or which code you want to get rid of. That is when you face merge conflict.</p> 
+        </div>
+        <h2>Steps To Create Merge Conflict</h2>
+        <ul>
+            <li><i class="fa fa-asterisk" aria-hidden="true"></i> Switch to feature branch and make some changes to 
+            index.html file and then commit the change to local.</li>
+            <li><i class="fa fa-asterisk" aria-hidden="true"></i> Switch to main branch and make some changes to 
+                index.html file and then commit the change to local.</li>
+            <li><i class="fa fa-asterisk" aria-hidden="true"></i> Switch to feature branch and type the command
+            <span>git diff main</span> to observe the difference/changes with the main branch.</li>
+            <li><i class="fa fa-asterisk" aria-hidden="true"></i> Type the command <span>git merge main</span>.
+                Once you do that you will get merge conflict message. Follow the below image.</li>
+            <li><i class="fa fa-asterisk" aria-hidden="true"></i>The last step you have to do is select Accept Both 
+            Changes to accept the incoming changes from main and then commit the new changes in feature branch locally.</li>    
+        </ul>
+    </section>
+
+    <section class="undogit">
+        <h2>Undo in GIT</h2>   
+        <div class="container">
+            <p><span>git reset</span> command is used in CLI to undo <span>git add .</span>. To undo a commit 
+                we use the comman <span>git reset HEAD~1</span></p>
+            <p>Remember <span>git reset --hard</span> command not only undo a commit but also removes the modifications 
+                from the code.</p>    
+        </div>      
+    </section>
+
+    <section class="forking">
+        <h2>Forking</h2>
+        <div class="container">
+            <p>A fork is a copy of a repository that you manage. Forks let you make changes to a project 
+                without affecting the original repository. You can fetch updates from or submit changes to the 
+                original repository with pull requests.</p>
+        </div>
+    </section>
+
+    <!--start JS-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--end JS-->
+
+    <!--start custom_menu JS-->
+    <script src="js/custom-menu.js"></script>
+    <!--end custom_menu JS-->
+</body>
+</html>

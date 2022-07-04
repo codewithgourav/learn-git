@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'ivy_modebold';
+    src: url('../fonts/ivymode-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modebold_italic';
+    src: url('../fonts/ivymode-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modeitalic';
+    src: url('../fonts/ivymode-italic-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modelight';
+    src: url('../fonts/ivymode-light-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modelight_italic';
+    src: url('../fonts/ivymode-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_moderegular';
+    src: url('../fonts/ivymode-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modesemibold';
+    src: url('../fonts/ivymode-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modesemibold_italic';
+    src: url('../fonts/ivymode-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modethin';
+    src: url('../fonts/ivymode-thin-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modethin_italic';
+    src: url('../fonts/ivymode-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ivy_modebold';
+    src: url('../fonts/ivymode-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ivymode-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+  url('../fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*************end font poppins*************/
+
+
+
+
+body{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 17px;
+  color: #151515;
+}
+p{font-family: 'poppinsregular';}
+*{box-sizing: border-box;}
+ol, ul{margin: 0; padding: 0; list-style-type: none;}
+img{max-width: 100%;height: 100%;}
+a{text-decoration: none!important;}
+a /*, input[type="submit"]*/{
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+   color: #337ab7;
+}
+strong, b{font-weight: normal;}
+.clear{clear: both!important;}
+
+.full-width{width: 100%; float: left;}
+.container{max-width: 1472px; width: 100%;}
+h1,h2,h3,h4,h5,h6{font-family: 'ivy_modelight';}
+
+
+/**************start banner******************/
+.home_bnr .bnr_img{height: 400px;text-align: center;}
+
+.bnr_caption {background-color: rgba(255, 255, 255, 0.8);text-align: center;width: 900px;padding: 55px 0 0 0 ;}
+.bnr_caption h1{font-size: 55px;}
+.bnr_caption p {text-transform: uppercase;letter-spacing: 11px;font-size: 20px;}
+.bnr_caption a{background-color: #151515;color: #fff;text-transform: uppercase;padding: 15px 25px;display: inline-block;
+    transform: translateY(30px);}
+
+.git_login_div{display: flex; flex-wrap: wrap;align-items: center;justify-content: center;}
+.git_login_div .git_login_subdi{width: 50%;}
+
